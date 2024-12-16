@@ -37,7 +37,7 @@ Developed by: HALIMA HARISHA A
 RegisterNumber:24901005
 
 
-...
+~~~
 module exp9(T,clk,Q,Qbar);
 input T,clk;
 output reg Q;
@@ -50,8 +50,7 @@ Q=(T&(~Q))|((~T)&Q);
 Qbar=~Q;
 end
 endmodule
-...
-
+~~~
 
 RTL LOGIC FOR FLIPFLOPS
 
